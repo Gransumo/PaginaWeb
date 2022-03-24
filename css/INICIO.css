@@ -1,0 +1,145 @@
+body {
+    display: block;
+    overflow-x: none;
+    background-size: 100%;
+}
+header {
+    background-color:rgb(14, 33, 67);
+    margin: auto;
+    display: block;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.cabeza {
+    width: 70% auto;    
+    padding: 3px;
+    display: flex;
+    position: relative;
+}
+.sponsors {
+    position: absolute;
+    right: 5px;
+    top: 10px;
+
+    display: flex;    
+    float: right;
+}
+.sponsors img {
+    height: 100px;
+    margin: 3px;
+    float: right;
+}
+.logo {
+   height: 115px;
+   position: relative;
+   left: 15px;
+   top: 5px;
+   margin-bottom: 5px;
+}
+nav {
+    background-color: #fff;
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    overflow-y: none;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+.menu {
+    margin: auto;
+    width: 100%;
+    position: relative;
+    left: 140px;
+}   
+header ul{
+    list-style-type: none;
+}
+nav li a {
+    color: rgb(102, 102, 102);
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    width: 110px;
+    text-align: center;
+}
+nav ul li {
+    float: left;  
+    
+}
+.desplegables li{
+    float: none; 
+}
+.desplegables li a {
+    text-align: left;
+}
+.menu ul li a:hover {
+    background-color:#418fde;
+    color: #fff;
+}
+nav li ul {
+    display: none;
+}
+.menu li:hover ul {
+    display: block;
+}
+.imagenInicio {
+    width: 100%;
+    margin-top: 20px;
+    border: solid 1px black;
+}
+main {
+    padding-right: 3px;
+}
+.main {
+    width: 50%;
+    background: rgb(233, 233, 233);
+    color: #000;
+    text-align: left;
+    border: rgb(217, 217, 217) solid 2px;
+}
+.imagenNoticia {
+    width: 100%;
+}
+.noticia {
+    padding: 10px;
+}
+.inicio {
+    padding-left: 8%;
+    padding-right: 10px;
+}
+main h1 {
+    width: 50%;
+    padding: 10px;
+    text-decoration: underline;
+    font-size: 20px;
+
+}
+.inicio table {
+    float: right;
+    width: 40%;
+}
+.inicio table th {
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+}
+.vs {
+    margin: auto;
+}
+.inicio table td {
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 50px;
+    border: cornflowerblue
+}
+.right {
+    text-align: right;
+}
+.inicio table tr:nth-child(even) {
+    background-color: cornflowerblue;
+}

@@ -1,0 +1,132 @@
+<!-- Gabriel Hernando Castro Sánchez -->
+<!-- 2º Bachillerato A -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E.D.M San Blas</title>
+    <link rel="stylesheet" href="../css/FINAL.css">
+    <link rel="icon" href="../Recursos/Sanblaslogo.png">
+</head>
+<body>    
+    <header>
+        <div class="cabeza">
+            <div><a href="../menuPrincipal/pFinal.html"><img class="logo" src="../Recursos/Sanblaslogo.png" alt="San Blas"></a></div>
+            <div class="sponsors">
+                <a href="http://www.rasan.com/" target="blank"><img src="../Recursos/Rasan.png" alt="Rasán" ></a>
+                <a href="https://www.globalpiso.es/" target="blank"> <img src="../Recursos/globalpiso.png" alt="Globalpiso" ></a>
+            </div>
+        </div>   
+        <nav>
+            <div class="menu">
+                <ul>
+                    <li><a href="../menuPrincipal/pFinal.html">INICIO</a></li>
+                    <li><a href="">CLUB</a>
+                        <ul class="desplegables">
+                            <li><a href="../club/Historia.html">Historia</a></li>
+                            <li><a href="../club/Directiva.html">Directiva</a></li>
+                            <li><a href="../club/contacto.html">Contacto</a></li>
+                            <li><a href="../club/PruebasDeAcceso.html">Pruebas de acceso</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">EQUIPOS</a>
+                        <ul class="desplegables">
+                            <li><a href="../equipos/Aficionado.html">Aficionado</a></li>
+                            <li><a href="../equipos/Juvenil.html">Juvenil</a></li>
+                            <li><a href="../equipos/Cadete.html">Cadete</a></li>
+                            <li><a href="../equipos/Intantil.html">Infantil</a></li>
+                            <li><a href="../equipos/Alevin.html">Alevin</a></li>
+                            <li><a href="../equipos/Benjamin.html">Benjamin</a></li>
+                            <li><a href="../equipos/Prebenjamin.html">Prebenjamin</a></li>
+                            <li><a href="../equipos/Chupetin.html">Chupetin</a></li>
+                            
+                        </ul>
+                    </li>
+                    <li><a href="">SOCIAL</a>   
+                            <ul class="desplegables">
+                                <li><a  target="blank" href="https://www.instagram.com/edmsanblas_oficial/">Instagram</a></li>
+                                <li><a  target="blank" href="https://twitter.com/edm_sanblas">Twiter</a></li>
+                            </ul>     
+                    </li> 
+                </ul>
+            </div>     
+        </nav>
+    </header>
+    <main>
+        <div class="main"><br><br><br>
+            <h1>Pruebas de Acceso</h1><br>
+
+            <form>
+                <table class="pruebas">
+                    <tr>
+                        <td class="preguntas"><label for="nombre">Nombre Completo: </label></td>
+                        <td class="pruebasTextRight"><input  class="pruebasText" type="text" id="nombre" placeholder="Introduce tu nombre:"></td>
+                    </tr>
+                    <tr>
+                        <td class="preguntas"><label for="email">E-mail: </label></td>
+                        <td class="pruebasTextRight"><input class="pruebasText" type="email" id="email" placeholder="Correo electronico de respuesta"></td>
+                    </tr>
+                    <tr>
+                        <td class="preguntas"><label for="telefono">Teléfono de contacto:</label></td>
+                        <td class="pruebasTextRight"><input class="pruebasText" type="tel" id="telefono" placeholder="666-777-888"></td>
+                    </tr>
+                    <tr>
+                        <td class="preguntas"><label for="localidad">Localidad / Barrio donde vives: </label></td>
+                        <td class="pruebasTextRight"><input class="pruebasText" type="text" id="localidad" placeholder="Ubicación"></td>
+                    </tr>
+                    <tr>
+                        <td class="preguntas"><label for="fechaDeNacimiento">Fecha de nacimiento:	</label></td>
+                        <td class="pruebasTextRight"><input class="pruebasText" type="date" id="fechaDeNacimiento"></td>
+                    </tr>
+                    <tr>
+                        <td class="preguntas">Sexo:</td>
+                        <td class="radio">
+                            <label for="hombre"><input type="radio" id="hombre" value="hombre">Hombre</label>
+                            <label for="mujer"><input type="radio" id="mujer" value="mujer">Mujer</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="preguntas"><label for="club">¿Has pertenecido a algún Equipo/Club? En caso afirmativo indícanos tu experiencia: </label></td>
+                        <td class="pruebasTextRight"><textarea class="pruebasText" id="club" cols="30" rows="5" placeholder="..."></textarea></td>
+                    </tr>
+                    <tr>
+                        <td class="preguntas">¿Cuál es tu posición habitual? Selecciona tus preferencias.</td>
+                        <td class="posicion">
+                            <table>
+                                <tr>
+                                    <td><input type="checkbox" id="Portero"><label for="Portero">Portero</label></td>
+                                    <td><input type="checkbox" id="Lateral"><label for="Lateral">Lateral</label></td>
+                                    <td><input type="checkbox" id="Central"><label for="Central">Central</label></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" id="Centrocampista"><label for="Centrocampista">Centrocampista</label></td>
+                                    <td><input type="checkbox" id="Extremo"><label for="Extremo">Extremo</label></td>
+                                    <td><input type="checkbox" id="Delantero"><label for="Delantero">Delantero</label></td>
+                                </tr>
+                            </table>   
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="preguntas">¿Con qué pierna juegas mejor?</td>
+                        <td class="radio">
+                            <label for="Diestra"><input type="radio" name="pierna" id="Diestra" value="Diestra">Diestra</label> 
+                            <label for="Zurda"><input type="radio" name="pierna" id="Zurda" value="Zurda">Zurda</label>
+                            <label for="Ambas"><input type="radio" name="pierna" id="Ambas" value="Ambas">Ambas</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="preguntas"><label for="familiar">¿Tienes algún familiar en la Escuela? En caso afirmativo indícanos quién: </label></td>
+                        <td class="pruebasTextRight"><textarea placeholder="..." class="pruebasText" id="familiar" cols="30" rows="5"></textarea></td>
+                    </tr>
+                </table>
+                <br>
+                <input type="submit" value="Enviar" class="enviar">
+            </form>
+            <br>
+        </div>
+        <br>
+    </main>
+    <br>
+</body>
+</html>

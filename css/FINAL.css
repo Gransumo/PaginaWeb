@@ -1,0 +1,213 @@
+body {
+    background: url(../Recursos/bgfoto.png);
+    background-attachment: fixed;
+    background-size: 100%;
+    display: block;
+}
+header {
+    background-color:rgb(14, 33, 67);
+    margin: auto;
+    display: block;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.cabeza {
+    width: 70% auto;    
+    padding: 3px;
+    display: flex;
+    position: relative;
+}
+.sponsors {
+    position: absolute;
+    right: 5px;
+    top: 10px;
+
+    display: flex;    
+    float: right;
+}
+.sponsors img {
+    height: 100px;
+    margin: 3px;
+    float: right;
+}
+.logo {
+   height: 115px;
+   position: relative;
+   left: 15px;
+   top: 5px;
+   margin-bottom: 5px;
+}
+nav {
+    background-color: rgb(0, 51, 160);
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    overflow-y: none;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+.menu {
+    margin: auto;
+    width: 100%;
+    position: relative;
+    left: 140px;
+}   
+header ul{
+    list-style-type: none;
+}
+nav li a {
+    color:white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    width: 110px;
+    text-align: center;
+}
+nav ul li {
+    float: left;  
+    
+}
+.desplegables li{
+    float: none; 
+}
+.desplegables li a {
+    text-align: left;
+}
+.menu ul li a:hover {
+    background-color:#418fde;
+}
+nav li ul {
+    display: none;
+}
+.menu li:hover ul {
+    display: block;
+}
+.main {
+    background: #fff;
+    color: #000;
+    text-align: justify;
+    padding-right: 10%;
+
+}
+.listaDeEquipos li {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.listaDeEquipos li ul li {
+    font-weight:normal;
+    font-size: 15px;
+    font-family:'Calibri';
+    list-style-type: none;
+}
+main {
+    width: 70%;
+    margin: auto;
+    background: #fff;
+    color: #000;
+    text-align: left;
+    padding-left: 10%;
+}
+.tituloEquipo {
+    font-weight: bold;
+    font-size: 40px;
+    margin-left: -5%;
+}
+.listaDeEquipos {
+    margin-left: 2%;
+}
+main table td a{
+    padding: 5px;
+}
+.main h1 {
+    font-size: 30px;
+    font-family: Verdana, sans-serif;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    margin-right: 40px;
+    margin-left: -9px;
+    text-align: center;
+    color: rgb(13, 46, 117);
+    padding: 5px;
+    line-height: -3px;
+    border-radius: 10px;
+}
+.main p {
+    margin-left: -5%;
+    margin-top: 2%;
+    font-family: sans-serif;
+}
+.imagenesHistoria {
+    width: 450px;
+    float: right;
+    margin: 20px;
+}
+.directiva {
+    padding-right: 30px;
+    text-align: left;
+}
+.directiva ul{
+    list-style-type: none;
+}
+.directiva ul li {
+    margin-bottom: 20px;
+}
+.contactoDerecha {
+    float: right;
+}
+.contactoIzquierda {
+    margin-left: -5%;
+}
+.maps {
+    margin-left: -5%;
+    height: 500px; 
+    width: 100%;
+}
+.pruebas {
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+    font-size: 20px;
+}
+.pruebas td {
+    
+    width: 50%;
+}
+.pruebasTextRight {
+    padding-right: 14px;
+}
+.posicion {
+    font-size: 20px;
+    padding-right: -300px;
+}
+.posicion input {
+    margin: 3px;
+}
+.posicion td {
+    width: 30%;
+    border: none;
+}
+.pruebasText {
+    margin: auto;
+    width: 100%;
+    font-size: 20px;
+    padding: 5px;
+}
+.preguntas {
+    padding: 15px;
+}
+.radio {
+    padding: 10px;
+}
+.radio input{
+    margin: 8px;
+}
+.enviar {
+    font-size: 20px;
+    width: 20%;
+}
